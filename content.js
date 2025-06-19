@@ -427,7 +427,7 @@
                 presetsDiv.id = 'gemini-popup-presets';
                 const presets = [
                     { text: "Summarize", query: "Summarize this image. 1 sentence." },
-                    { text: "Explain", query: "Explain this screenshot in detail. 1 sentence." },
+                    { text: "Explain", query: "Explain the thing in the image, like what it means or what it does or what it is. 1 sentence." },
                     { text: "Answer", query: "What is shown in this image or if this is a question, answer it. Be specific. 1 sentence." }
                 ];
                 presets.forEach(preset => {
