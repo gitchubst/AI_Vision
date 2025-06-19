@@ -1,7 +1,7 @@
 (function() {
     let GEMINI_API_KEY = "";
     let VERSION = "gemini-2.0-flash";
-    let TEMPERATURE = 1.0;
+    let TEMPERATURE = 1;
 
     const MODELS = {
         "Gemini 2.0 Flash": "gemini-2.0-flash",
@@ -389,8 +389,8 @@
                     tempError.textContent = '';
                 } else {
                     tempError.textContent = 'Temperature must be between 0 and 2';
-                    tempInput.value = '1.0';
-                    TEMPERATURE = 1.0;
+                    tempInput.value = '1';
+                    TEMPERATURE = 1;
                 }
                 saveSettings();
             };
