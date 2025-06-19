@@ -421,9 +421,9 @@
                 const presetsDiv = document.createElement('div');
                 presetsDiv.id = 'gemini-popup-presets';
                 const presets = [
-                    { text: "Summarize", query: "Summarize this image. 1 sentence." },
-                    { text: "Explain", query: "Explain the thing in the image, like what it means or what it does or what it is. 1 sentence." },
-                    { text: "Answer", query: "What is shown in this image or if this is a question, answer it. Be specific. 1 sentence." }
+                    { text: "Summarize", query: "Summarize this image. 1 sentence. Also, dont say this image says, talk about the thing or things in the image and answer whatever question or query is before this. Make this english less complicated and more simple english and esier to understand, but still make sure to use the proper technical langauge." },
+                    { text: "Explain", query: "Explain the thing in the image, like what it means or what it does or what it is. 1 sentence. Also, dont say this image says, talk about the thing or things in the image and answer whatever question or query is before this. Make this english less complicated and more simple english and esier to understand, but still make sure to use the proper technical langauge." },
+                    { text: "Answer", query: "What is shown in this image or if this is a question, answer it. Be specific. 1 sentence. Also, dont say this image says, talk about the thing or things in the image and answer whatever question or query is before this. Make this english less complicated and more simple english and esier to understand, but still make sure to use the proper technical langauge." }
                 ];
                 presets.forEach(preset => {
                     const button = document.createElement('button');
@@ -483,7 +483,7 @@
                 queryText = "What's in this image?";
             }
             
-            queryText = `${queryText}. one sentence unless the user explicitly asks for more detail or to write a paragraph or to write a essay, otherwise write 1 sentence. Also, dont say this image says, talk about the thing or things in the image and answer whatever question or query is before this.`;
+            queryText = `${queryText}. one sentence unless the user explicitly asks for more detail or to write a paragraph or to write a essay, otherwise write 1 sentence. Also, dont say this image says, talk about the thing or things in the image and answer whatever question or query is before this. Make this english less complicated and more simple english and esier to understand, but still make sure to use the proper technical langauge.`;
 
             sendButton.textContent = 'Sending';
             sendButton.disabled = true;
