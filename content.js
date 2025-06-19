@@ -1,6 +1,6 @@
 (function() {
     let GEMINI_API_KEY = "";
-    let VERSION = "gemini-2.0-flash";
+    let VERSION = "gemini-2.5-flash";
     let TEMPERATURE = 1;
 
     const MODELS = {
