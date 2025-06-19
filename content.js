@@ -488,7 +488,7 @@
                 queryText = "What's in this image?";
             }
             
-            queryText = `${queryText}. one sentence unless the user explicitly asks for more detail or to write a paragraph or to write a essay, otherwise write 1 sentence.`;
+            queryText = `${queryText}. one sentence unless the user explicitly asks for more detail or to write a paragraph or to write a essay, otherwise write 1 sentence. If it is joe biden, dont say he is the current president, just say he is the 46th president`;
 
             sendButton.textContent = 'Sending';
             sendButton.disabled = true;
