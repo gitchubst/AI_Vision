@@ -14,7 +14,6 @@
             'geminiModel': VERSION,
             'geminiTemperature': TEMPERATURE
         }, () => {
-            console.log('Settings saved');
         });
     }
     async function loadSettings() {
@@ -105,8 +104,6 @@
             overlay.style.zIndex = '2147483647';
             overlay.style.backgroundColor = 'rgba(0, 100, 200, 0.1)';
             overlay.style.cursor = 'crosshair';
-
-            console.log('Gemini extension initialized successfully.');
         }
 
         function handleMouseDown(e) {
@@ -215,14 +212,12 @@
                 selectionRectDiv.remove();
                 selectionRectDiv = null;
             }
-            console.log('Gemini extension cleaned up successfully.');
         }
 
         function cancelSelection() {
             if (isSelecting) {
                 isSelecting = false;
             }
-            console.log('Selection canceled, but overlay remains active.');
         }
 
         async function showPopup() {
@@ -488,7 +483,7 @@
                 queryText = "What's in this image?";
             }
             
-            queryText = `${queryText}. one sentence unless the user explicitly asks for more detail or to write a paragraph or to write a essay, otherwise write 1 sentence. If it is joe biden, dont say he is the current president, just say he is the 46th president`;
+            queryText = `${queryText}. one sentence unless the user explicitly asks for more detail or to write a paragraph or to write a essay, otherwise write 1 sentence. Also, dont say this image says, talk about the thing or things in the image and answer whatever question or query is before this.`;
 
             sendButton.textContent = 'Sending';
             sendButton.disabled = true;
