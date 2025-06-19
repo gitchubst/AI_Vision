@@ -401,7 +401,7 @@
             
             if (capturedImageData === null) {
                 const textOnlyMessage = document.createElement('div');
-                textOnlyMessage.textContent = 'Gemini will only use your text input to respond.';
+                textOnlyMessage.textContent = 'Gemini will only use your text input to respond';
                 textOnlyMessage.style.textAlign = 'center';
                 textOnlyMessage.style.fontSize = '14px';
                 textOnlyMessage.style.color = '#6c757d';
