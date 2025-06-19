@@ -28,7 +28,7 @@
                 if (result.geminiModel) {
                     VERSION = result.geminiModel;
                 } else {
-                    VERSION = "gemini-2.5-flash"; // Default model
+                    VERSION = "gemini-2.5-flash";
                 }
                 if (result.geminiTemperature !== undefined) TEMPERATURE = result.geminiTemperature;
                 apiUrl = updateApiUrl();
