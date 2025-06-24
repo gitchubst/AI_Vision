@@ -265,7 +265,7 @@
             
             const instructionsPanel = document.createElement('div');
             instructionsPanel.id = 'gemini-instructions-panel';
-            instructionsPanel.textContent = "After setting up your API key, right-click or click the extension to open the screenshot tool. Take a screenshot, then either type a prompt or click a preset button to ask about the image. Your input and screenshot will then be sent over to Gemini for a response. If you click a single spot or select too little, Gemini will only use your text input to respond.";
+            instructionsPanel.textContent = "After setting up your API key, right-click or click the extension to open the screenshot tool. Take a screenshot, then either type a prompt or click a preset button to ask about the image. Your input and screenshot will then be sent over to Gemini for a response. If you click a single spot or select too little, Gemini will only use your text input to respond. Press Control + E To exit screenshot mode or close the popup.";
             content.appendChild(instructionsPanel);
             
             instructionsButton.onclick = () => {
