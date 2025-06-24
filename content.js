@@ -83,7 +83,6 @@
         let resizeMouseMoveHandler, resizeMouseUpHandler;
 
         function initSelection() {
-            document.body.classList.add('gemini-extension-active');
             overlay = document.createElement('div');
             overlay.id = 'gemini-screenshot-overlay';
             document.body.appendChild(overlay);
@@ -199,7 +198,6 @@
         }
 
         function cleanupSelection() {
-            document.body.classList.remove('gemini-extension-active');
             if (overlay) {
                 overlay.removeEventListener('mousedown', handleMouseDown);
                 overlay.removeEventListener('mousemove', handleMouseMove);
