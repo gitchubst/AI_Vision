@@ -1,6 +1,7 @@
 # AI Vision
 __You can get it here: [AI Vision](https://chromewebstore.google.com/detail/ai-vision/ghmmlbclopoakmjjbkkmoefjldgjimgk)__
 <br>
+<br>
 Or you can get it here by downloading and settining up the extension in developer mode
 <br>
 A simple extension where you can right-click and take a screenshot to ask Gemini questions about pictured area.
