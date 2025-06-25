@@ -1,4 +1,5 @@
 # AI Vision
+__You can get it here: [AI Vision](https://chromewebstore.google.com/detail/ai-vision/ghmmlbclopoakmjjbkkmoefjldgjimgk).__ Or you can get
 A simple extension where you can right-click and take a screenshot to ask Gemini questions about pictured area.
 <br>
 <br>
@@ -6,7 +7,7 @@ A simple extension where you can right-click and take a screenshot to ask Gemini
 
 ## Downloading
 Go to the green box on the right that says "Code". Once you click on it, look at the bottom of the popup and click "Download ZIP"
-Once you download the zip file, make sure to unpack, or open, it. I made a similar project that should be the exact same setup except instead of putting your API key into background.js, put it in content.js. Here's the setup video for that project,  [youtube video](https://youtu.be/1JC1XM8UTDM).
+Once you download the zip file, make sure to unpack, or open, it. I made a similar project that should be the exact same setup except instead of putting your API key into background.js, put it in content.js. Here's the setup video for that project, [youtube video](https://www.youtube.com/watch?v=qw2SIY9JzVU).
 <br>
 <br>
 <br>
