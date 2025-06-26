@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "AI Vision",
+  "name": "AI Vision - Screenshot & ask or type non-image questions with Gemini",
   "version": "1.1",
   "description": "Take a screenshot and ask questions based on the picture (using the Gemini API)",
   "permissions": [
