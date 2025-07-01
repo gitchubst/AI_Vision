@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "AI Vision - Screenshot & ask - free visual AI query tool with Gemini",
   "version": "1.3",
-  "description": "Snap a screenshot and ask anything. Instant answers from Gemini. AI Insights, reading tool, summarize or explain pictures & paragraphs.",
+  "description": "Snap a screenshot and ask. Instant answers from Gemini. AI Insights, reading tool, summarize or explain pictures & paragraphs.",
   "permissions": [
     "activeTab",
     "scripting",
