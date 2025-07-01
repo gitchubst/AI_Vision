@@ -1,11 +1,11 @@
 (function() {
     let GEMINI_API_KEY = "";
-    let VERSION = "gemini-2.5-flash";
+    let VERSION = "gemini-2.5-flash-lite-preview-06-17";
     let TEMPERATURE = 1;
 
     const MODELS = {
-        "Gemini 2.5 Flash": "gemini-2.5-flash",
         "Gemini 2.5 Flash Lite": "gemini-2.5-flash-lite-preview-06-17",
+        "Gemini 2.5 Flash": "gemini-2.5-flash"
     };
 
     function saveSettings() {
@@ -27,7 +27,7 @@
                 if (result.geminiModel) {
                     VERSION = result.geminiModel;
                 } else {
-                    VERSION = "gemini-2.5-flash";
+                    VERSION = "gemini-2.5-flash-lite-preview-06-17";
                 }
                 if (result.geminiTemperature !== undefined) TEMPERATURE = result.geminiTemperature;
                 apiUrl = updateApiUrl();
